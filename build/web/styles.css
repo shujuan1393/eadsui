@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 3, 2017, 12:50:59 PM
+    Author     : smu
+*/
+body {
+    font-family: "Georgia", Times, serif;
+}
+#login-form {
+    text-align: center;
+    /*height: 200px;*/
+    position: relative;
+    top: 50%;
+    /*width: 100px;*/
+    height: 250px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #3399ff;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    margin: auto;
+}
+
+.submit {
+    padding: 3px 5px;
+    background-color: grey;
+    color: white;
+}
+
+.index {
+    background-color:  white; 
+    /*#0066cc;*/
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 20%;
+    background-color: #3399ff;
+    padding: 2px;
+    margin: -5px 0px;
+}
+
+.sidebar li {
+    color: white;
+    padding: 2px;
+}
+
+.openmenu {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+}
+
+.bodycontent {
+    position: relative;
+    width: 80%;
+    float: right;
+    height: 100%;
+    padding-left: 0px;
+
+    background-color: white;
+/*    width:80%;
+    height: 100%;
+    top:92px;
+    float: right;
+    z-index:5;
+    overflow:auto;*/
+}
+
+.category {
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#prefTable, #newTable {
+    border: 0px;
+    padding: 3px;
+}
+
+#prefTable td {
+    padding: 3px;
+}
+
+.itemQty {
+    width: 20px;
+}
+
+table {
+    border: 0px none;
+}
